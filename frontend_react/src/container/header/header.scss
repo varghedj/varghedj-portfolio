@@ -151,9 +151,25 @@
     }
   }
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1200px) {
     flex-direction: row;
     margin-left: 0;
+
+    div:nth-child(1) {
+      width: 90px;
+      height: 90px;
+    }
+    
+    div:nth-child(2) {
+      margin: 1.75rem;
+      width: 120px;
+      height: 120px;
+    }
+  
+    div:nth-child(3) {
+      width: 70px;
+      height: 70px;
+    }
   }
 }
 
