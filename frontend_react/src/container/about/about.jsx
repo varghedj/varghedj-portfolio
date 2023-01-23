@@ -4,22 +4,17 @@ import './about.scss'
 import { images } from '../../constants'
 
 const abouts = [
-  {title: 'Web Development', description: 'I am an engineer', imgUrl: images.about01},
-  {title: 'Web Development', description: 'I am an engineer', imgUrl: images.about02},
-  {title: 'Web Development', description: 'I am an engineer', imgUrl: images.about03},
-  {title: 'Web Development', description: 'I am an engineer', imgUrl: images.about04},
+  {title: 'Frontend Development', description: 'I am an engineer', imgUrl: images.about01},
+  {title: 'Backend Development', description: 'I am an engineer', imgUrl: images.about02},
+  {title: 'DevOps', description: 'I am an engineer', imgUrl: images.about03},
+  {title: 'UI/UX', description: 'I am an engineer', imgUrl: images.about04},
 ]
 const about = () => {
   return (
     <>
-      <h2 className='head-text'>
-        I Know That
-        <span>Good Development</span>
-        Equals
-        <span>Good Business</span>
-      </h2>
+      <h2 className='head-text'>I Know That <span>Good Development </span><br />Equals <span>Good Business</span></h2>
 
-      <div className='app_profiles'>
+      <div className='app__profiles'>
         {abouts.map((about, index) => (
           <motion.div
             whileInView={{opacity: 1}}
