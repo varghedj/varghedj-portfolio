@@ -150,6 +150,11 @@
       height: 170px;
     }
   }
+
+  @media screen and (max-width: 960px) {
+    flex-direction: row;
+    margin-left: 0;
+  }
 }
 
 .app__header-img {
