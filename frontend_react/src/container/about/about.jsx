@@ -9,6 +9,7 @@ const abouts = [
   {title: 'DevOps', description: 'I am an engineer', imgUrl: images.about03},
   {title: 'UI/UX', description: 'I am an engineer', imgUrl: images.about04},
 ]
+
 const about = () => {
   return (
     <>
