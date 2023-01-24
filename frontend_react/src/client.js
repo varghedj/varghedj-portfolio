@@ -11,4 +11,5 @@ export const client = sanityClient({
 
 const builder = imageUrlBuilder(client);
 
+//code that must be used when you want to use images in sanity.io
 export const urlFor = (source) => builder.image(source)
